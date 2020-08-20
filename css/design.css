@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #BC5151 ;
+}
+
+.button{
+	width: 75px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+}
+
+.textview{
+	width: 305px;
+	margin: 5px;
+	font-size: 25px;
+	padding: 5px;
+	border: none;
+	background-color: transparent;
+}
+
+.main{
+	width: 327px;
+    height: 332px;
+    background-color: #efecec;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    border: 1px solid grey; 
+}
+
+.number{
+	background-color: white;
+	font-weight: bold;
+}
+
+.symbol{
+	background-color: #fbfbfb;
+}
+
+.grey:hover{
+	background-color: #e0e0e0;
+}
+
+.blue:hover{
+	background-color: #03a9f4;
+}
+.menu-bar{
+	background: #58AE5E ;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+.active, .menu-bar ul li:hover{
+	background: #E32C3D ;
+	border-radius: 3px;
+}
+.menu-bar fa{
+	margin: 8px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(227,44,61);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu
+{
+	background: rgb(124,163,203);
+font-size: 20px;
+color: black;
+}
